@@ -1,0 +1,51 @@
+nav {
+    border-bottom: 1px solid white;
+}
+
+.bits ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+.bits {
+    display:inline-block;
+}
+
+.bits a::after {
+    display: inline-block;
+    color: #ccccff;
+    content: '*';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+body {
+    background-color:#383230;
+   image-rendering: crisp-edges;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-attachment: scroll;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+    
+
+
+    
+
+p{
+    color:white;
+}
+footer > ul > li {
+    list-style: none;
+    float:left;
+    width:10%;
+}
+.imageContainer {
+    width:0%; 
+    height: 800px;
+    background-image: url("https://i.pinimg.com/564x/6f/53/ad/6f53adb1594cc6bf4c9cf4eb29357f69.jpg");
+    background-repeat: no-repeat;
+    
+}
